@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-telegram-bot
+tweepy
+apscheduler
+sqlalchemy
+pydantic
+python-dotenv
+requests
