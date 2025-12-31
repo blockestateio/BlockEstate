@@ -1070,3 +1070,40 @@ ul {
         flex-direction: column;
     }
 }
+
+/* Hero CA Box */
+.hero-ca-box {
+    background: rgba(226, 193, 105, 0.1);
+    border: 1px solid var(--color-gold);
+    padding: 12px 25px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    max-width: 90%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.hero-ca-box:hover {
+    background: rgba(226, 193, 105, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(226, 193, 105, 0.2);
+}
+
+.hero-ca-label {
+    color: var(--color-gold);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.hero-ca-text {
+    font-family: 'Courier New', monospace;
+    color: var(--color-white);
+    letter-spacing: 0.5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
